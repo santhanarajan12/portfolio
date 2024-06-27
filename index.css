@@ -18,6 +18,19 @@
   --main-color: #59b2f4;
 }
 
+.html, body {
+  overflow: hidden; 
+}
+
+.html::-webkit-scrollbar, body::-webkit-scrollbar {
+  display: none;
+}
+
+.html {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -43,7 +56,7 @@ section {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2rem 9%;
+  padding: 2rem 5%;
   background: var(--bg-color);
 }
 
