@@ -464,6 +464,10 @@ span {
   color: var(--snd-bg-color);
 }
 
+.custom-link{
+  color: #FF5733;
+}
+
 @media screen and (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -599,3 +603,4 @@ span {
     width: 300px;
   }
 }
+
