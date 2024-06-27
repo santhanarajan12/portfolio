@@ -33,6 +33,16 @@ window.onscroll = () => {
   navbar.classList.remove("active");
 };
 
+
+var typingEffect = new Typed(".typedText", {
+      strings: ["Fresher", "Developer", "Test Engineer"],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 2000,
+  });
+
+
 ScrollReveal({
   distance: "80px",
   duration: 2000,

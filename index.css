@@ -223,7 +223,7 @@ span {
 
 .edu-container .service-card {
   flex: 1 1 30rem;
-  background-color: var(--snd-bg-color);
+  background-color: var(--snd-bg-color); 
   padding: 3rem 2rem 4rem;
   border-radius: 2rem;
   text-align: center;
@@ -466,6 +466,24 @@ span {
 
 .custom-link{
   color: #FF5733;
+}
+
+.logo{
+  width: 500px;
+  height: 100px;
+
+}
+
+.logo1{
+  width: 300px;
+  height: 50px;
+
+}
+
+.logo2{
+  width: 400px;
+  height: 50px;
+
 }
 
 @media screen and (max-width: 1200px) {
