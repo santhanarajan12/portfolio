@@ -622,6 +622,7 @@ span {
   }
 }
 
+/* Temp GIF */
 .gif-image{
   height: 200px;
   width: 200px;
@@ -633,4 +634,11 @@ span {
   font-weight: 900;
   color: var(--text-color);
   text-align: center;
+}
+
+/* buy cofee footer */
+.buy-cofee {
+  width: 140px;
+  height: 40px;
+  
 }
