@@ -65,6 +65,16 @@ section {
   color: var(--text-color);
   font-weight: 700;
   cursor: pointer;
+  transition: text-shadow 0.3s ease; /* Smooth transition for glow */
+}
+
+.portfolio-logo.active{
+  color: var(--main-color);
+}
+
+.portfolio-logo:hover {
+  text-shadow: 0 0 10px var(--main-color), /* Light glow using text color */
+               0 0 10px var(--main-color); /* Stronger glow using text color */
 }
 
 .navbar-container a {
@@ -76,6 +86,10 @@ section {
 
 .navbar-container a.active {
   color: var(--main-color);
+}
+
+.navbar-container a:hover{
+  text-shadow: 0 0 10px var(--text-color);
 }
 
 #menu-bar-icone {
