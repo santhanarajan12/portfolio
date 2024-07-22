@@ -12,7 +12,7 @@
 }
 
 :root {
-  --bg-color: rgb(18, 18, 62);
+  --bg-color: #12123e;
   --snd-bg-color: #262840;
   --text-color: #ffffff;
   --main-color: #59b2f4;
@@ -191,6 +191,7 @@ span {
   justify-content: center;
   align-items: center;
   background-color: var(--snd-bg-color);
+  padding: 100px;
 }
 
 .heading {
@@ -652,7 +653,7 @@ span {
   font-weight: 900;
   color: var(--text-color);
   text-align: center;
-}
+}/* Temp Constuction */
 
 /* buy cofee footer */
 .buy-cofee {
